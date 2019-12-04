@@ -1,0 +1,52 @@
+
+#app{
+    background: url(../images/star-wars-space-backgrounds.jpg);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-div{
+    text-align: center;
+    
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.messages-div{
+    overflow: auto;
+    background: url('../images/space-wars.jpg');
+    margin: 30px;
+    width: 900px;
+    height: 500px;
+    text-align: center;
+    margin-left: 350px ;
+    box-shadow: 5px 5px 5px black;
+    color: rgb(30, 29, 46);
+}
+
+
+button {
+    margin-left: 30px;
+    height: 25px;
+}
+
+.input-div{
+    text-align: center;
+    height: 20px;
+}
+
+h1{
+    color: ghostwhite
+}
